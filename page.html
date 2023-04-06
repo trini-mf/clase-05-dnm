@@ -11,7 +11,7 @@
     <body>
         <div class="container">
             <nav>
-                <p><a href="index.html">Portada</a> <a href="page.html?x=1">Talca</a> <a href="page.html?x=2">Nueva York</a> <a href="page.html?x=3">Venecia</a></p>
+                <p><a href="index.html">Portada</a> <a href="page.html?x=1">Melipilla</a> <a href="page.html?x=2">Nueva York</a> <a href="page.html?x=3">Venecia</a></p>
             </nav>
             <main>
                 <div>
@@ -41,7 +41,7 @@
 
             if (seleccionada == 1) {
                 function preload() {
-                    data = loadJSON("https://api.openweathermap.org/data/2.5/weather?lat=-35.42&lon=-71.66&units=metric&appid=2956bc43a78884b4734c34cc20a33f49&lang=es");
+                    data = loadJSON("https://api.openweathermap.org/data/2.5/weather?lat=-33.7&lon=-71.21&units=metric&appid=2956bc43a78884b4734c34cc20a33f49&lang=es");
                 }
             } else if (seleccionada == 2) {
                 function preload() {
@@ -64,8 +64,8 @@
                     case "New York":
                         lugar = "en Nueva York";
                         break;
-                    case "Talca":
-                        lugar = "en Talca";
+                    case "Melipilla":
+                        lugar = "en Melipilla";
                         break;
                     case "Venice":
                         lugar = "en Venecia";
